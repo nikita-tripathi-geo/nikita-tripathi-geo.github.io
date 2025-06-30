@@ -1,0 +1,210 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikita Tripathi</title>
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <aside class="sidebar">
+    <!-- <div class="logo">NT</div> -->
+    <nav>
+      <a href="#hero" class="active"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="#about"><i class="fas fa-user"></i><span>About</span></a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i><span>Education</span></a>
+      <a href="#work"><i class="fa-solid fa-briefcase"></i><span>Work</span></a>
+      <a href="#projects"><i class="fas fa-folder-open"></i><span>Projects</span></a>
+      <a href="#contact"><i class="fa-solid fa-address-book"></i><span>Contact</span></a>
+    </nav>
+  </aside>
+  <main>
+    <section id="hero">
+        <h1 class="typewriter">Nikita Tripathi</h1>
+        <p class="subtitle">Cybersecurity Research · Software Engineering</p>
+    </section>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I design and implement cryptographic protocols such as post-quantum crypto (PQC) and quantum key distribution (QKD).
+        I specialize in key exchange protocols (AKE, MAKE, KEM), IoT security, and entropy estimation.
+      </p>
+      <p>
+        <b>Current Work </b> I am implementing fast QKD Reconciliation and Privacy Amplification algorithms at Prof. Rei Safavi-Naeini's lab, University of Calgary.
+      </p>
+      <p>
+        <b>Personal Interests </b> I am pursuing a degree in Orthodox Christian Theology. In my free time, I like to swim, rock-climb, and bake bread.
+      </p>
+    </section>
+    <section id="education" class="panel">
+      <div class="panel-content">
+        <h2>Education</h2>
+        <div class="timeline">
+          <!-- Education 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>MSc, Computer Science</h3>
+              <span>University of Calgary</span>
+              <div class="timeline-location">Calgary, AB, Canada</div>
+              <div class="timeline-date">Sept 2022 – Apr 2025</div>
+              <div class="achievements">
+                <ul>
+                  <li>Specialization: Post-Quantum Cryptography, Entropy Estimation, IoT Security</li>
+                  <li>Thesis: Entropy Estimation for Arbiter PUF and Applications to Authenticated Key Exchange</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Education 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>BSc, Computer Science</h3>
+              <span>University of Calgary</span>
+              <div class="timeline-location">Calgary, AB, Canada</div>
+              <div class="timeline-date">Sept 2018 – Apr 2022</div>
+              <div class="achievements">
+                <ul>
+                  <li>First Class Honours</li>
+                  <li>Minor: Mathematics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="panel">
+      <div class="panel-content">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>Research Assistant (QKD)<span>| University of Calgary</span></h3>
+              <div class="timeline-location">Calgary, AB, Canada</div>
+              <div class="timeline-date"> April 2025 – Present</div>
+              <div class="achievements">
+                <div class="achievements-title">Responsibilities & Achievements</div>
+                <ul>
+                  <li>Researched and implemented QKD Reconciliation for a range of sample lengths and quantum bit error rates (QBER).</li>
+                  <li>Tested rate-matched low density parity check codes from the 5G NR standard. Applied to QKD Reconciliation.</li>
+                  <li>Implemented several universal hash functions for QKD Privacy Amplification.</li>
+                  <li>Demonstrated real-life feasibility using client/server tests.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>Research Assistant (TELUS R&D)<span>| University of Calgary</span></h3>
+              <div class="timeline-location">Calgary, AB, Canada</div>
+              <div class="timeline-date"> May 2022 – April 2025</div>
+              <div class="achievements">
+                <div class="achievements-title">Responsibilities & Achievements</div>
+                <ul>
+                  <li>Researched, designed, and implemented 3 TELUS-funded post-quantum cryptography projects (IoT & biometrics).</li>
+                  <li>Wrote 50k+ lines of code (Python, Bash, MATLAB, C++); wrote test suites and documentation; scaled experiments on HPC.</li>
+                  <li>Analyzed 30+ state-of-the-art security protocols; identified critical security flaws and proposed solutions.</li>
+                  <li>Authored weekly technical reports; delivered 30+ R&D presentations to TELUS security leadership.</li>
+                  <li>Co-authored to 2 academic papers under review (NDSS ’26 – co-first author; IEEE TDSC – second author).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>Security Analyst (SAST)<span>| WOW Finstack</span></h3>
+              <div class="timeline-location">Singapore (Remote)</div>
+              <div class="timeline-date"> September 2024 – October 2024 (1-month contract)</div>
+              <div class="achievements">
+                <div class="achievements-title">Responsibilities & Achievements</div>
+                <ul>
+                  <li>Assessed security of Soft-HSM and 3-DS card-issuing APIs using SonarQube & OWASP Dependency-Check.</li>
+                  <li>Flagged critical CVEs and suggested remediation patches.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience 4 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>Teaching Assistant<span>| University of Calgary</span></h3>
+              <div class="timeline-location">Calgary, AB, Canada</div>
+              <div class="timeline-date"> May 2022 – April 2025</div>
+              <div class="achievements">
+                <div class="achievements-title">Responsibilities & Achievements</div>
+                <ul>
+                  <li>Supported undergraduate and graduate students in a variety of computer science courses, including low-level programming, information security, applied cryptography, and information theory (graduate level).</li>
+                  <li>As a head TA, I led a team of 7 TA-s and assisted the professor, fostering communication, managing workloads, and resolving conflicts to ensure successful instruction and timely grading for a class of over 200 students.</li>
+                  <li>Undergraduate Teaching Excellence Award (2020).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience 5 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <h3>Software Engineer<span>| BizNetX</span></h3>
+              <div class="timeline-location">Tbilisi, Georgia</div>
+              <div class="timeline-date">October 2017 – March 2018</div>
+              <div class="achievements">
+                <div class="achievements-title">Responsibilities & Achievements</div>
+                <ul>
+                  <li>Developed front-end functionalities for a cryptocurrency pricing platform (ETH Price) in JavaScript and React.</li>
+                  <li>Contributed to the development of a project management platform (Eldocs) using JavaScript, React, Redux.</li>
+                  <li>Used Git for version control. Used HTML, CSS, and JS frameworks to contribute to various small projects.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <!-- Project cards -->
+        <div class="card">
+          <img src="project1.png" alt="APUF-mAKE"/>
+          <div class="overlay">
+            <h3>APUF-mAKE</h3>
+            <p>Entropy estimation for Arbiter PUFs. <a href="https://github.com/yourusername/APUF-mAKE" target="_blank">GitHub</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="project2.png" alt="QKD Toolkit"/>
+          <div class="overlay">
+            <h3>QKD Toolkit</h3>
+            <p>LDPC-based reconciliation tool in Python. <a href="#">Repo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+        <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i><span>Email</span></a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
