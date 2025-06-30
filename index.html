@@ -25,7 +25,13 @@
   <main>
     <section id="hero">
         <h1 class="typewriter">Nikita Tripathi</h1>
-        <p class="subtitle">Cybersecurity Research · Software Engineering</p>
+        <p class="subtitle">Cybersecurity Researcher · Software Engineer</p>
+        <p class="subtitle">Based in Calgary, AB, Canada</p>
+        <div class="social-links">
+          <a href="https://github.com/nikita-tripathi-geo" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+          <a href="https://linkedin.com/in/nikita-tripathi-geo" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+          <a href="mailto:ntripathi99@gmail.com"><i class="fas fa-envelope"></i><span>Email</span></a>
+        </div>
     </section>
     <section id="about" class="about">
       <h2>About Me</h2>
@@ -178,19 +184,99 @@
     <section id="projects">
       <h2>Projects</h2>
       <div class="grid">
-        <!-- Project cards -->
-        <div class="card">
-          <img src="project1.png" alt="APUF-mAKE"/>
-          <div class="overlay">
-            <h3>APUF-mAKE</h3>
-            <p>Entropy estimation for Arbiter PUFs. <a href="https://github.com/yourusername/APUF-mAKE" target="_blank">GitHub</a></p>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">Quantum KEM</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">Quantum Key Encapsulation Mechanism</span>
+              <p>Classical post-processing and information-theoretic key encapsulation mechanism (KEM) for quantum key distribution (QKD).</p>
+              <div class="project-links">
+                <a href="https://github.com/sp-git-code/qkd" target="_blank">GitHub</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="project2.png" alt="QKD Toolkit"/>
-          <div class="overlay">
-            <h3>QKD Toolkit</h3>
-            <p>LDPC-based reconciliation tool in Python. <a href="#">Repo</a></p>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">PUF Simulation Toolkit</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">APUF Simulation</span>
+              <p>Numpy-based simulation module for Arbiter PUFs. Optimized for high performance compute (HPC) clusters.</p>
+              <div class="project-links">
+                <a href="https://github.com/nikita-tripathi-geo/APUF-simulation" target="_blank">GitHub</a>
+                <a href="https://pypi.org/project/apuf/" target="_blank">PyPI</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">Mutually Authenticated Key Exchange for IoT</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">APUF-mAKE</span>
+              <p>Fast and post-quantum mutually authenticated key exchange (mAKE) for Arbiter PUFs.</p>
+              <div class="project-links">
+                <a href="https://github.com/nikita-tripathi-geo/APUF-mAKE" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">Command Line Authenticator App</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">CLI Authenticator</span>
+              <p>Python-based CLI tool to generate time-based one time passwords (TOTP) for two-factor authenticattion (2FA).</p>
+              <div class="project-links">
+                <a href="https://github.com/nikita-tripathi-geo/cli-top" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">Post-Quantum Fuzzy Extractor</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">Post-Quantum Fuzzy Extractor for Human Irises</span>
+              <p>Quantum-resistant robust and reusable fuzzy extractor (rrFE) for biometric sources.</p>
+              <div class="project-links">
+                <a href="https://github.com/nikita-tripathi-geo/iris-fuzzy-extractor" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card -->
+        <div class="portfolio-item">
+          <div class="project-card">
+            <div class="project-front">
+              <span class="project-title">Entropy Estimation for Arbiter PUFs</span>
+            </div>
+            <div class="project-back">
+              <span class="project-title">Entropy Estimation for Arbiter PUFs</span>
+              <p>
+                Framework for estimating entropy of multi-bit APUF responses in various cryptographic settings.
+                Part of my MSc thesis.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/nikita-tripathi-geo/APUF-Entropy-Estimation" target="_blank">GitHub</a>
+                <a href="https://dx.doi.org/10.11575/PRISM/48909" target="_blank">Thesis</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -198,10 +284,9 @@
     <section id="contact">
       <h2>Contact</h2>
       <div class="social-links">
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
-        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-        <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i><span>Email</span></a>
+        <a href="https://github.com/nikita-tripathi-geo" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+        <a href="https://linkedin.com/in/nikita-tripathi-geo" target="_blank"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+        <a href="mailto:ntripathi99@gmail.com"><i class="fas fa-envelope"></i><span>Email</span></a>
       </div>
     </section>
   </main>
