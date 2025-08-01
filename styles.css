@@ -1,5 +1,10 @@
 /* styles.css */
 
+@font-face {
+    font-family: 'Necto Mono'; /*a name to be used later*/
+    src: url('fonts/necto-mono-main/fonts/NectoMono-Regular.otf'), url(fonts/necto-mono-main/fonts/NectoMono-Regular.woff2); /*URL to font*/
+}
+
 :root {
   --main: #22273a;
   --card: #20283a;
@@ -25,7 +30,7 @@ html {
 
 body {
   display: flex;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Necto Mono', monospace;
   background-color: var(--bg);
   color: var(--text);
 }
